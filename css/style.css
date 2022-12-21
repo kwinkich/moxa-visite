@@ -2,3 +2,44 @@
 body {
   font-family: "Bai Jamjuree", sans-serif;
 }
+
+.hero__header {
+  margin-top: 32px;
+}
+
+.container-hero-footer {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  max-width: 131px;
+}
+.header__menu {
+  width: 220px;
+}
+.header__menu-lists {
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #161513;
+  border-bottom: 1px solid #161513;
+}
+.header__btn {
+  padding: 9px 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161513;
+  border: 1px solid #161513;
+}
