@@ -3,6 +3,11 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
 }
 
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
 .hero__header {
   margin-top: 32px;
   margin-bottom: 40px;
@@ -140,4 +145,95 @@ body {
 .header__btn:hover {
   background-color: #161513;
   color: white;
+}
+
+.lead {
+  padding-top: 260px;
+  padding-bottom: 500px;
+}
+.lead__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.lead__first-toptitle {
+  max-width: 300px;
+}
+.lead__first-p {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
+  margin-bottom: 20px;
+}
+.lead__first-span {
+  position: relative;
+  margin-left: 25px;
+}
+.lead__first-span::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/ministar.png);
+  top: 18%;
+  left: -17%;
+}
+.lead__block-first-title {
+  max-width: 350px;
+}
+.lead__first-title {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.56px;
+  color: #161513;
+}
+.lead__flex-second {
+  display: flex;
+  flex-direction: column;
+}
+.lead__block-second-p {
+  max-width: 600px;
+  margin-bottom: 35px;
+}
+.lead__block-second-minip {
+  max-width: 600px;
+  margin-bottom: 27px;
+}
+.lead__second-p {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 40px;
+  letter-spacing: 0.64px;
+  color: #161513;
+}
+.lead__second-minip {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #161513;
+}
+.lead__block-second-flex {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.lead__block-second-item {
+  display: flex;
+  flex-direction: column;
+}
+.lead__second-toptitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #e94d35;
+  margin-bottom: 10px;
+}
+.lead__second-title {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
 }
