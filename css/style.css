@@ -291,21 +291,6 @@ body {
 .awards {
   padding-top: 120px;
 }
-.awards__header {
-  margin: 0 auto;
-  margin-bottom: 60px;
-}
-.awards__header-ico {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.awards__header-title {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.awards__header-subtitle {
-  text-align: center;
-}
 .awards__flex {
   display: flex;
   flex-direction: column;
@@ -352,22 +337,113 @@ body {
   margin-left: auto;
 }
 
-.awaico {
-  max-width: 40px;
+.main-header {
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
 
-.icotitle {
+.main-ico {
+  max-width: 40px;
+  text-align: center;
+}
+
+.main-title {
   font-weight: 400;
   font-size: 45px;
   line-height: 56px;
   letter-spacing: 1.44px;
   color: #161513;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.icosubtitle {
+.main-subtitle {
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 1.44px;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.main-block-ico {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.portfolio {
+  padding-top: 120px;
+}
+.portfolio__block-flex {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio__block-flex-item {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.portfolio__block-flex-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.portfolio__item-img {
+  max-width: 460px;
+}
+.portfolio__item-flex-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+}
+.portfolio__item-block-toptitle {
+  max-width: 100%;
+}
+.portfolio__item-toptitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 5px 15px;
+  background-color: #e94d35;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.portfolio__item-title {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 56px;
+  letter-spacing: 1.44px;
+  color: #161513;
+  margin-bottom: 50px;
+}
+.portfolio__item-link {
+  position: relative;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #161513;
+  transition: all 0.4s ease-in-out;
+}
+.portfolio__item-link:hover {
+  color: #e94d35;
+}
+.portfolio__item-link::before {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 2px;
+  top: 100%;
+  background-color: #e94d35;
+  transition: all 0.4s ease-in-out;
+}
+.portfolio__item-link:hover::before {
+  width: 100%;
+  height: 2px;
+}
+
+.item-img {
+  max-width: 460px;
 }
