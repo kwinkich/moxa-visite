@@ -551,3 +551,131 @@ body {
 .item-img {
     max-width: 460px;
 }
+
+.services {
+    padding-top: 80px;
+
+    &__content {
+    }
+
+    &__block-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__block-top-flex {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    &__block-bottom-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__block-item {
+        max-width: 510px;
+        border: 2px solid #161513;
+    }
+
+    &__block-txt {
+        max-width: 430px;
+        padding: 30px 50px 30px 30px;
+    }
+
+    &__block-title {
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 40px;
+        letter-spacing: 0.64px;
+        color: #161513;
+    }
+
+    &__block-subtitle {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #161513;
+    }
+}
+
+.article {
+    padding-top: 120px;
+
+    &__content {
+        position: relative;
+    }
+    &__content::before {
+        position: absolute;
+        content: "";
+        background-image: url(../img/bgimg.svg);
+        background-repeat: no-repeat;
+        width: 240px;
+        height: 240px;
+        bottom: 200px;
+        right: 50px;
+    }
+
+    &__flex-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__flex-item-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 100px;
+        align-items: center;
+        border: 2px solid #000000;
+    }
+
+    &__flex-item-txt {
+        display: flex;
+        flex-direction: column;
+        max-width: 450px;
+    }
+
+    &__flex-item-toptitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 1.28px;
+        text-transform: uppercase;
+        color: #e94d35;
+    }
+
+    &__flex-item-title {
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 32px;
+        letter-spacing: 0.48px;
+        color: #161513;
+    }
+
+    &__flex-info {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #161513;
+        max-width: 450px;
+    }
+
+    &__flex-link {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #161513;
+        padding: 12px 0px 12px 0px;
+        border: 2px solid #161513;
+        transition: all 0.4s ease-in-out;
+    }
+
+    &__flex-link:hover {
+        color: #161513;
+        background: none;
+    }
+}

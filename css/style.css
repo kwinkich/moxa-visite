@@ -447,3 +447,112 @@ body {
 .item-img {
   max-width: 460px;
 }
+
+.services {
+  padding-top: 80px;
+}
+.services__block-flex {
+  display: flex;
+  flex-direction: column;
+}
+.services__block-top-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.services__block-bottom-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.services__block-item {
+  max-width: 510px;
+  border: 2px solid #161513;
+}
+.services__block-txt {
+  max-width: 430px;
+  padding: 30px 50px 30px 30px;
+}
+.services__block-title {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 40px;
+  letter-spacing: 0.64px;
+  color: #161513;
+}
+.services__block-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #161513;
+}
+
+.article {
+  padding-top: 120px;
+}
+.article__content {
+  position: relative;
+}
+.article__content::before {
+  position: absolute;
+  content: "";
+  background-image: url(../img/bgimg.svg);
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  bottom: 200px;
+  right: 50px;
+}
+.article__flex-block {
+  display: flex;
+  flex-direction: column;
+}
+.article__flex-item-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  align-items: center;
+  border: 2px solid #000000;
+}
+.article__flex-item-txt {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+}
+.article__flex-item-toptitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  color: #e94d35;
+}
+.article__flex-item-title {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
+}
+.article__flex-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161513;
+  max-width: 450px;
+}
+.article__flex-link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #161513;
+  padding: 12px 0px 12px 0px;
+  border: 2px solid #161513;
+  transition: all 0.4s ease-in-out;
+}
+.article__flex-link:hover {
+  color: #161513;
+  background: none;
+}
